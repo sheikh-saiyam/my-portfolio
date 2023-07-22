@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+  background-image: url(bgimg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  cursor: url(Cursor.png), auto;
+}
+
+/* Header & Navbar*/
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: rgb(252, 152, 103);
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 60px;
+  color: rgb(39, 50, 59);
+  padding-left: 115px;
+}
+.nav ul {
+  list-style: none;
+  padding-left: 50px;
+}
+.nav ul li {
+  float: left;
+  text-align: center;
+  align-items: center;
+  margin-left: 80px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: large;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(252, 152, 103);
+  font-size: large;
+  font-family: georgia, "Times New Roman", Times, serif;
+}
+
+.nav ul li a:hover {
+  color: #fff;
+  font-size: -large;
+  background-color: rgb(252, 152, 103);
+  border: 1px solid rgb(252, 152, 103);
+  border-radius: 3px;
+}
+
+/* Don't Know */
+
+section {
+  padding: 70px;
+}
+
+/* Home Section  */
+
+.Home {
+  margin-left: 50px;
+  margin-bottom: 200px;
+  float: inline-start;
+}
+
+.Home h1 {
+  font-size: xx-large;
+  font-weight: 900;
+  color: rgb(252, 152, 103);
+}
+
+.Home p {
+  font-size: xx-large;
+  font-weight: 700;
+  line-height: 60px;
+  color: rgb(0, 0, 0);
+}
+
+/*About section*/
+
+#about {
+  margin-left: 50px;
+}
+
+#about h2 {
+  font-size: xx-large;
+}
+span {
+  font-size: x-large;
+  color: rgb(252, 152, 103);
+}
+
+#about p {
+  font-size: x-large;
+  max-width: 1100px;
+  border: 10px solid rgb(252, 152, 103);
+  border-radius: 18px 18px;
+  line-height: 25px;
+  word-spacing: 8px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*project Section */
+
+.hhh2 {
+  text-align: center;
+  font-size: xxx-large;
+}
+img {
+  width: 600px;
+  height: 400px;
+}
+.box {
+  text-align: center;
+  float: right;
+}
+.box2 {
+  text-align: center;
+  float: left;
+}
+
+/* Contact us */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  bottom: 100px;
+}
+.hhh {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ppp {
+  text-align: center;
+}
+
+.uuu {
+  list-style: none;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.ll {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.aa {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(252, 152, 103);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.aa:hover {
+  background-color: #371a1a;
+  color: rgb(252, 152, 103);
+}
+
+/* Service Section*/
+
+/* Service 1*/
+.services {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.services {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  max-height: 100px;
+  padding: 20px;
+  float: left;
+  margin-top: 220px;
+  border: 5px solid rgb(252, 152, 103);
+  border-radius: 18px 18px;
+  margin-left: 72px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Service 2 */
+
+.services2 {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.services2 {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.services2 h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.service2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 100px;
+  padding: 20px;
+  float: right;
+  margin-top: 220px;
+  border: 5px solid rgb(252, 152, 103);
+  border-radius: 18px 18px;
+  margin-right: 72px;
+}
+
+.service2 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service2 p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
